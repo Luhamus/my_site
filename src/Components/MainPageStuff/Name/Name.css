@@ -1,0 +1,68 @@
+.name-wrap{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    border-left: 4px solid white;
+}
+
+
+.name{
+    font-size: 7rem;
+    text-align: center;
+    color:white;
+}
+
+/* Name Animation */
+
+
+span{
+    opacity: 0;
+    color: white;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+/* Respnsivness stuffy donw here*/
+
+@media screen and (max-width: 970px){
+    .name{
+        font-size: 5rem;
+    }
+
+   
+}
+
+@media screen and (max-width: 768px){
+    .name{
+        font-size: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    .name{
+        font-size: 3.5rem;
+    }
+    .name-wrap{
+        border-left: none;
+    }
+
+}
+/* Phone */
+
+@media screen and (max-width: 480px){
+    .name{
+        padding-top:10%;
+    }
+    .name{
+        font-size: 3rem;
+    }
+  
+}

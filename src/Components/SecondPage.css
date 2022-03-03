@@ -1,0 +1,144 @@
+.secondPage-wrap{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    background-color: #1C1C1E;
+}
+
+/* Buttons Stuff */
+
+
+.buttons-wrap{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    width: 60%;
+    height: 50%;
+    /*background-color: #232B2B;*/
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    height: 100%;
+    width: 40%;
+    border-radius: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #1C1C1D;
+    color: white;
+}
+.buttons button:hover{
+    background-color: #5A5A5A;
+    color: #1C1C1C;
+}
+
+/* Info Stuff */
+
+
+
+.info-wrap{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 80%;
+    height: 90%;
+    background-color: #1C1C1D;
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px 1px white;
+    text-align: center;
+}
+
+.info p{
+    margin: 2%;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.info h3{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+/* Responsivness */
+
+@media screen and (max-width: 1600px){
+    .info p{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 1420px){
+    .info p{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1120px){
+    .info p{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .info p{
+        font-size: 1.25rem;
+    }
+    .buttons button{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 620px){
+    .info p{
+        font-size: 1.1rem;
+    }
+    .buttons button{
+        width: 60%;
+    }
+}
+
+ @media screen and (max-width: 480px){
+     .info p{
+         font-size: 1rem;
+     }
+     .buttons button{
+         width: 70%;
+     }
+     
+ }
+ 
+ @media screen and (max-width: 360px){
+    .info p{
+        font-size: .9rem;
+    }
+    .buttons button{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 270px){
+    .info p{
+        font-size: .8rem;
+    }
+    .info h3{
+        font-size: 1.5rem;
+    }
+
+    .buttons button{
+        width: 90%;
+    }
+
+}
