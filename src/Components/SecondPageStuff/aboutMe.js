@@ -6,7 +6,6 @@ const data = {
         "I played football for 11 years, but now I go jogging every so often and bike alot due to the lack of drivers licence.",
         "I can solve a Rubik's cube, quite fast. Sometimes I read",
         "Watching Mr. Robot was one of the big reasons why I started learning programming and also got into Linux.",
-        "I am currenly drinking too much caffeine, but im turning things around.",
     ]
 }
 
